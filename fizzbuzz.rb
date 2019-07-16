@@ -13,4 +13,5 @@ def fizzbuzz(num)
   return string
 end
 
-p fizzbuzz(11)
+get num
+p fizzbuzz()
