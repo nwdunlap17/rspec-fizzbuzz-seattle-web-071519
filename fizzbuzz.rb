@@ -14,4 +14,4 @@ def fizzbuzz(num)
 end
 
 get num
-p fizzbuzz()
+p fizzbuzz(num)
