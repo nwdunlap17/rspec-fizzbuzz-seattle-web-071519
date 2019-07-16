@@ -10,11 +10,7 @@ def fizzbuzz(num)
       string ="Buzz"
     end
   end
-  if string == ""
-    return NIL
-  else
-    return string
-  end
+  return string
 end
 
 p fizzbuzz(11)
