@@ -15,3 +15,7 @@ end
 
 get num
 p fizzbuzz(num)
+get num
+p fizzbuzz(num)
+get num
+p fizzbuzz(num)
