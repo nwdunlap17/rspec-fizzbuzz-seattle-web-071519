@@ -13,4 +13,4 @@ def fizzbuzz(num)
   end
 end
 
-p fizzbuzz(15)
+p fizzbuzz(11)
