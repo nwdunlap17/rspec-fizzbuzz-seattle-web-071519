@@ -1,16 +1,16 @@
 def fizzbuzz(num)
-  string = ""
-  if num%5 == 0
-    string+="fizz"
-  end
+  string = nil
   if num%3 == 0
-    string+="buzz"
+    string ="Fizz"
   end
-  if string == ""
-    return NIL
-  else
-    return string
+  if num%5 == 0
+    if string
+      string += "Buzz"
+    else
+      string ="Buzz"
+    end
   end
+  return string
 end
 
-p fizzbuzz(20)
+p fizzbuzz(3)
